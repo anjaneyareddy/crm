@@ -1,0 +1,43 @@
+Fri Apr 28 19:13:13 2023 [15144][1][SECURITY] OutboundEmail::checkSavePermissions - not logged in - skipping check
+Fri Apr 28 19:13:13 2023 [15144][1][FATAL] User update error: Temp User is not retrieved at ID 1, boolean given
+Fri Apr 28 19:13:13 2023 [15144][1][FATAL] Email address save error
+Fri Apr 28 19:13:18 2023 [15144][1][SECURITY] Invalid ext  logger_file_ext : ''.
+Fri Apr 28 19:13:18 2023 [15144][1][SECURITY] Setting logger_file_ext to '.log'.
+Fri Apr 28 19:13:18 2023 [15144][1][SECURITY] Setting logger_file_name to ''.
+Fri Apr 28 19:13:18 2023 [15144][1][SECURITY] Log file extension can't be blank.
+Fri Apr 28 19:13:19 2023 [15144][1][SECURITY] Setting logger_file_name to ''.
+Fri Apr 28 19:13:19 2023 [15144][1][SECURITY] Log file extension can't be blank.
+Mon Jun 19 15:25:49 2023 [8][-none-][FATAL] SECURITY: User authentication for admin failed
+Mon Jun 19 15:25:51 2023 [8][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[admin]
+Mon Jun 19 15:33:53 2023 [8][1][FATAL] create_tables: Metadata for table sudologinaddon does not exist
+Mon Jun 19 15:33:53 2023 [8][1][FATAL] createRelationshipMeta: Metadata for table sudologinaddon does not exist
+Mon Jun 19 15:34:01 2023 [8][1][FATAL] createRelationshipMeta: Metadata for table sudologinaddon does not exist
+Mon Jun 19 15:34:02 2023 [8][1][FATAL] createRelationshipMeta: Metadata for table sudologinaddon does not exist
+Mon Jun 19 15:34:06 2023 [8][1][FATAL] createRelationshipMeta: Metadata for table sudologinaddon does not exist
+Mon Jun 19 15:34:11 2023 [8][1][FATAL] Exception handling in C:\wamp64\www\SuiteCRM7133\include\MVC\Controller\SugarController.php:397
+Mon Jun 19 15:34:11 2023 [8][1][FATAL] Exception in Controller: There is no action by that name: license
+Mon Jun 19 15:35:58 2023 [8][1][FATAL] createRelationshipMeta: Metadata for table sudologinaddon does not exist
+Mon Jun 19 15:37:50 2023 [8][1][FATAL] User update error: Temp User is not retrieved at ID e4878851-8689-62bb-d2bc-649076d64069, boolean given
+Mon Jun 19 15:37:51 2023 [8][1][FATAL] Email address save error
+Mon Jun 19 15:38:29 2023 [8][1][FATAL] SudoLoginOutfittersLicense::doValidate() failed: Array
+(
+    [success] => 
+    [result] => Key could not be found locally. Please go to the license configuration tool and enter your key.
+)
+
+Tue Jun 20 06:04:54 2023 [8][-none-][FATAL] SECURITY: User authentication for admin failed
+Tue Jun 20 06:04:54 2023 [8][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[admin]
+Fri Jun 23 09:48:48 2023 [8][1][FATAL] create_tables: Metadata for table sudologinaddon does not exist
+Fri Jun 23 09:48:49 2023 [8][1][FATAL] createRelationshipMeta: Metadata for table sudologinaddon does not exist
+Fri Jun 23 09:48:53 2023 [8][1][FATAL] createRelationshipMeta: Metadata for table sudologinaddon does not exist
+Fri Jun 23 09:48:54 2023 [8][1][FATAL] createRelationshipMeta: Metadata for table sudologinaddon does not exist
+Fri Jun 23 09:48:59 2023 [8][1][FATAL] createRelationshipMeta: Metadata for table sudologinaddon does not exist
+Tue Jul 11 05:28:04 2023 [14548][1][FATAL] createRelationshipMeta: Metadata for table sudologinaddon does not exist
+Tue Jul 11 05:28:06 2023 [14548][1][FATAL] createRelationshipMeta: Metadata for table sudologinaddon does not exist
+Tue Jul 11 05:29:39 2023 [14548][1][FATAL] createRelationshipMeta: Metadata for table sudologinaddon does not exist
+Tue Jul 11 05:31:00 2023 [14548][1][FATAL] createRelationshipMeta: Metadata for table sudologinaddon does not exist
+Tue Jul 11 05:31:02 2023 [14548][1][FATAL] createRelationshipMeta: Metadata for table sudologinaddon does not exist
+Tue Jul 11 05:31:12 2023 [14548][1][FATAL] createRelationshipMeta: Metadata for table sudologinaddon does not exist
+Tue Jul 11 05:31:45 2023 [14548][1][FATAL] createRelationshipMeta: Metadata for table sudologinaddon does not exist
+Tue Jul 11 05:31:48 2023 [14548][1][FATAL] createRelationshipMeta: Metadata for table sudologinaddon does not exist
+Tue Jul 11 05:31:50 2023 [14548][1][FATAL] createRelationshipMeta: Metadata for table sudologinaddon does not exist
