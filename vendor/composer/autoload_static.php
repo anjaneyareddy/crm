@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit20f2d06cc3a0367c9244638cad840562
+class ComposerStaticInitd195a26d6905046927c729c19a75495a
 {
     public static $files = array (
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
@@ -79,7 +79,6 @@ class ComposerStaticInit20f2d06cc3a0367c9244638cad840562
             'SuiteCRM\\Modules\\' => 17,
             'SuiteCRM\\Custom\\' => 16,
             'SuiteCRM\\' => 9,
-            'Slim\\Middleware\\' => 16,
             'Slim\\' => 5,
             'SelfUpdate\\' => 11,
         ),
@@ -294,10 +293,6 @@ class ComposerStaticInit20f2d06cc3a0367c9244638cad840562
             0 => __DIR__ . '/../..' . '/lib',
             1 => __DIR__ . '/../..' . '/include',
         ),
-        'Slim\\Middleware\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/tuupola/slim-jwt-auth/src',
-        ),
         'Slim\\' => 
         array (
             0 => __DIR__ . '/..' . '/slim/slim/Slim',
@@ -369,8 +364,8 @@ class ComposerStaticInit20f2d06cc3a0367c9244638cad840562
         ),
         'League\\Uri\\' => 
         array (
-            0 => __DIR__ . '/..' . '/league/uri-interfaces/src',
-            1 => __DIR__ . '/..' . '/league/uri/src',
+            0 => __DIR__ . '/..' . '/league/uri/src',
+            1 => __DIR__ . '/..' . '/league/uri-interfaces/src',
         ),
         'League\\OAuth2\\Server\\' => 
         array (
@@ -23722,10 +23717,6 @@ class ComposerStaticInit20f2d06cc3a0367c9244638cad840562
         'Slim\\Interfaces\\RouteInterface' => __DIR__ . '/..' . '/slim/slim/Slim/Interfaces/RouteInterface.php',
         'Slim\\Interfaces\\RouterInterface' => __DIR__ . '/..' . '/slim/slim/Slim/Interfaces/RouterInterface.php',
         'Slim\\MiddlewareAwareTrait' => __DIR__ . '/..' . '/slim/slim/Slim/MiddlewareAwareTrait.php',
-        'Slim\\Middleware\\JwtAuthentication' => __DIR__ . '/..' . '/tuupola/slim-jwt-auth/src/JwtAuthentication.php',
-        'Slim\\Middleware\\JwtAuthentication\\RequestMethodRule' => __DIR__ . '/..' . '/tuupola/slim-jwt-auth/src/JwtAuthentication/RequestMethodRule.php',
-        'Slim\\Middleware\\JwtAuthentication\\RequestPathRule' => __DIR__ . '/..' . '/tuupola/slim-jwt-auth/src/JwtAuthentication/RequestPathRule.php',
-        'Slim\\Middleware\\JwtAuthentication\\RuleInterface' => __DIR__ . '/..' . '/tuupola/slim-jwt-auth/src/JwtAuthentication/RuleInterface.php',
         'Slim\\Routable' => __DIR__ . '/..' . '/slim/slim/Slim/Routable.php',
         'Slim\\Route' => __DIR__ . '/..' . '/slim/slim/Slim/Route.php',
         'Slim\\RouteGroup' => __DIR__ . '/..' . '/slim/slim/Slim/RouteGroup.php',
@@ -25449,10 +25440,10 @@ class ComposerStaticInit20f2d06cc3a0367c9244638cad840562
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit20f2d06cc3a0367c9244638cad840562::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit20f2d06cc3a0367c9244638cad840562::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit20f2d06cc3a0367c9244638cad840562::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit20f2d06cc3a0367c9244638cad840562::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitd195a26d6905046927c729c19a75495a::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitd195a26d6905046927c729c19a75495a::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitd195a26d6905046927c729c19a75495a::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInitd195a26d6905046927c729c19a75495a::$classMap;
 
         }, null, ClassLoader::class);
     }

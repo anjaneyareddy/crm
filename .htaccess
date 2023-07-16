@@ -19,7 +19,7 @@ RedirectMatch 403 (?i)/+files\.md5$
     Options -Indexes
     Options -MultiViews
     RewriteEngine On
-    RewriteBase /SuiteCRM7133
+    RewriteBase /suitecrm
     RewriteRule ^cache/jsLanguage/(.._..).js$ index.php?entryPoint=jslang&modulename=app_strings&lang=$1 [L,QSA]
     RewriteRule ^cache/jsLanguage/(\w*)/(.._..).js$ index.php?entryPoint=jslang&modulename=$1&lang=$2 [L,QSA]
 

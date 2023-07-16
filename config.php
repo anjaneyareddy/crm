@@ -1,5 +1,5 @@
 <?php
-// created: 2023-04-28 19:13:15
+// created: 2023-07-15 05:51:24
 $sugar_config = array (
   'addAjaxBannedModules' => 
   array (
@@ -251,8 +251,8 @@ $sugar_config = array (
     'max_retries' => 5,
     'timeout' => 86400,
   ),
-  'js_custom_version' => '',
-  'js_lang_version' => 1,
+  'js_custom_version' => 1,
+  'js_lang_version' => 2,
   'languages' => 
   array (
     'en_us' => 'English (US)',
@@ -304,7 +304,7 @@ $sugar_config = array (
     'linkexpiration' => '1',
     'linkexpirationtime' => '30',
     'linkexpirationtype' => '1',
-    'systexpiration' => '1',
+    'systexpiration' => '',
     'systexpirationtime' => '7',
     'systexpirationtype' => '1',
     'systexpirationlogin' => '',
@@ -326,7 +326,7 @@ $sugar_config = array (
       3 => 'Administration',
       4 => 'Sync',
     ),
-    'default_limit' => 1000,
+    'default_limit' => 20000,
   ),
   'rss_cache_time' => '10800',
   'save_query' => 'all',
@@ -379,7 +379,7 @@ $sugar_config = array (
   'strict_id_validation' => false,
   'sugar_version' => '6.5.25',
   'sugarbeet' => false,
-  'suitecrm_version' => '7.13.3',
+  'suitecrm_version' => '7.13.4',
   'system_email_templates' => 
   array (
     'confirm_opt_in_template_id' => 'aaeff703-4926-8e26-7f50-644c1a71367e',
@@ -402,6 +402,27 @@ $sugar_config = array (
   'tracker_max_display_length' => 15,
   'translation_string_prefix' => false,
   'unique_key' => 'a662bf06e1e4e7d410714af265057559',
+  'upload_bad_ext' => 
+  array (
+    0 => 'php',
+    1 => 'php3',
+    2 => 'php4',
+    3 => 'php5',
+    4 => 'php6',
+    5 => 'php7',
+    6 => 'php8',
+    7 => 'pl',
+    8 => 'cgi',
+    9 => 'py',
+    10 => 'asp',
+    11 => 'cfm',
+    12 => 'js',
+    13 => 'vbs',
+    14 => 'html',
+    15 => 'htm',
+    16 => 'phtml',
+    17 => 'phar',
+  ),
   'upload_badext' => 
   array (
     0 => 'php',
