@@ -1,0 +1,4 @@
+
+.suitepicon-admin-login-security:before{
+	content:url("../../../../themes/Kiyo/images/LoginSecurity.png") !important;
+}

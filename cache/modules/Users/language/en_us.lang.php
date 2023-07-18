@@ -1,5 +1,5 @@
 <?php
-// created: 2023-07-11 05:29:44
+// created: 2023-07-16 18:37:59
 $mod_strings = array (
   'ERR_NO_2FACTOR_EMAIL_TMPL' => 'Two-factor email template is not set, please change settings on password management page.',
   'ERR_NO_2FACTOR_EMAIL_TMPL_CODE' => 'Two-factor email template should contain a $code at least.',
@@ -636,4 +636,18 @@ If you are not setting up Inbound Email, please clear all fields in that section
   'LNK_LIST_INBOUND_EMAIL_ACCOUNTS' => 'Inbound Email Accounts',
   'LNK_EXTERNAL_OAUTH_CONNECTIONS' => 'External OAuth Connections',
   'LBL_SUDOLOGIN_LOGIN_AS' => 'Sudo Login as',
+  'LBL_TIME_LEFT' => 'Time left',
+  'LBL_RESEND_OTP' => 'Resend OTP',
+  'LBL_CONTINUE' => 'Continue',
+  'LBL_OTP_EXPIRED' => 'This OTP is Expired.',
+  'LBL_VALID_USER' => 'Please add valid user for login security',
+  'LBL_DENIED_IP_ADDRESS' => 'This IP Address has Denied Login to KiyoCRM',
+  'LBL_WRONG_OTP' => 'You have entered wrong OTP.',
+  'LBL_VALID_OTP' => 'Please enter Valid OTP',
+  'LBL_VALID_CREDENTIALS' => 'Please Enter Valid User Credentials',
+  'LBL_SUPER_CHARGED_KIYOCRM' => 'Supercharged by KiyoCRM',
+  'LBL_POWERED_SUGARCRM' => 'Powered By SugarCRM',
+  'LBL_KIYOCRM' => 'KiyoCRM',
+  'LBL_VALID_EMAIL_ADDRESS' => 'User does not have the Email Address. Please ask Administrator to enter the Email Address in User Profile for receive the OTP to Authenticate',
+  'LBL_VALID_LOGIN_CREDENTIALS' => 'Please add valid user for login.',
 );

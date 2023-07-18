@@ -1,0 +1,241 @@
+/*********************************************************************************
+ * This file is part of package Login Security.
+ * 
+ * Author : Variance InfoTech PVT LTD (http://www.varianceinfotech.com)
+ * All rights (c) 2022 by Variance InfoTech PVT LTD
+ *
+ * This Version of Login Security is licensed software and may only be used in 
+ * alignment with the License Agreement received with this Software.
+ * This Software is copyrighted and may not be further distributed without
+ * written consent of Variance InfoTech PVT LTD
+ * 
+ * You can contact via email at info@varianceinfotech.com
+ * 
+ ********************************************************************************/
+ /* Panel Wizard Css */ 
+.panel {
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 0;
+  display: flex;
+  margin-bottom: 10px;
+  background: #fff;
+}
+
+.template-panel {
+  margin-top: 8px;
+  border: 1px solid rgb(211, 211, 211);
+  padding: 5px;
+  background: #eee;
+}
+
+#wizform > table > tbody > tr > td  {
+  background: #fff;
+}
+
+.template-container-full {
+  width: 100%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding: 10px;
+}
+
+.template-container-attachment {
+  width: 100%;
+  position: relative;
+  min-height: 1px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.template-panel-container, .template-panel-container:after{clear:both}
+.template-panel-container {
+  background: #fff;
+}
+
+.progression-container {
+  margin: 0 0 8px 0;
+  padding:0;
+}
+
+ul.progression {
+  margin: 0;
+  padding:0;
+}
+
+.progression li {
+  background-color: #f08377;
+  border-radius: 0px;
+  display: inline-block;
+  padding: 5px 20px 5px 20px;
+  margin-right: 16px;
+  width: auto;
+  margin-top: 4px;
+}
+
+.progression li:nth-child(1)::before {
+  border: none transparent;
+}
+
+.progression li::before, .progression li::after {
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  border-color: transparent;
+  border-left-color: #fff;
+  border-radius: 0px;
+}
+
+.progression li::before {
+  border-width: 16px;
+  margin-top: -7px;
+  margin-left: -20px;
+}
+
+.progression li::after {
+  border-left-color: #f08377;
+  border-width: 15px;
+  margin-top: -5px;
+  margin-left: 20px;
+}
+
+.progression li.selected {
+  background-color: #808f9c;
+  color: #fff;
+}
+
+.progression li.selected::after {
+  border-left-color: #808f9c;
+}
+
+.progression li:hover {
+  background-color: #f08377;
+  color: #fff;
+  cursor: pointer;
+}
+
+.progression li:hover::after, .progression li.selected:hover::after {
+  border-left-color: #808f9c;
+  color: #fff;
+}
+
+.progression li:last-child::after {
+  border-left-color: transparent;
+}
+
+.progression li div, .progression li div *{
+  color: white;
+  text-decoration: none;
+  padding-left: 8px;
+  display: inline;
+}
+
+.wizard-summary-right .test, .wizard-summary-right .schedule {
+  background-position: center center;
+  text-align: center;
+  vertical-align: bottom;
+  padding: 8px;
+}
+
+.wizard-unique-elem{
+  width:1000px;
+}
+
+.setvisibilityclass{
+  display : block;
+  margin-bottom : 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#allowUsersRow, #denyUsersRow, #step2, #otpTypeRow, #emailSubjectRow, #templateEditorRow, #smsTriggerRow, #daysRow{
+  display : none;
+}
+
+
+/* Buttons CSS */
+#btnClear, #btnSave, #btnNext{
+  margin-left: 20px; 
+}
+
+/* CSS for input/selector */
+#blockingType, #ipBlockingUserType{
+  width:175px;
+}
+
+#otpTypeLabel, #otpTypeCol, #smsTriggerRow td, #daysRow td{
+  padding-top:10px;
+}
+
+#otpLoginSecurityLabel{
+  width: 500px;
+}
+
+/* switch button css */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 24px;
+}
+
+.switch input {
+  display: none;
+}
+
+.slider.round {
+  border-radius: 34px;
+  margin-top: 10px;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #808f9c;
+  -webkit-transition: .4s;
+  transition: .4s;
+  height: 25px;
+  width: 50px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #f08377;
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}

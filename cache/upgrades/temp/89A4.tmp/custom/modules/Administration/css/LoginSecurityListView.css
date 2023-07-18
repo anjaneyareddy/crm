@@ -1,0 +1,120 @@
+
+.back{
+  float: right;
+  margin-right: 5px;
+}
+
+#loginSecurityTable{
+  width: 100%;
+}
+
+#deleteTable{
+  margin-top:20px;
+}
+
+#addNew{
+  width: 100%;
+}
+
+/* Bulk Actions css */
+.bulkActionRow{
+  float: right;
+}
+
+.actionLabel{
+  margin-top: 6px;
+  text-align: center;
+}
+
+li.actionButton{
+  width: 126px;
+}
+
+li.actionButton ul.ddopen{
+  display:none;
+  margin-top:10px;
+}
+
+li.actionButton ul.ddopen li a{
+  border-bottom:1px solid #93a0ab;
+}
+
+/* Switch css */
+/* switch button css */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.slider.round {
+  border-radius: 34px;
+  margin-top: 10px;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #808f9c;
+  -webkit-transition: .4s;
+  transition: .4s;
+  height: 25px;
+  width: 50px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #f08377;
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.container {
+  padding: 0px !important;
+  padding-left: 0px !important;
+  margin-top: 0px !important;
+}
+
+#noRecords{
+  text-align:center;
+}
+
+#actionLinkTop, #actionMenu, .switch input {
+  display : none;
+}
+
+.loginSecurityListCol{
+  padding-left: 10px;
+}
+
+.updateLicense{
+  float:right;
+}
